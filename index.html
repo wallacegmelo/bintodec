@@ -7,11 +7,22 @@
   <title>Binary to Decimal Converter</title>
   <link rel="stylesheet" href="css/styled.css">
 </head>
-<body>
+<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
   <div class="container">
     <div class="header">
-      
+      <h1>BTD Converter</h1>
     </div>
+    <main>
+      <div class="control_panel">
+        <form action="" class="formConverter">
+          <img src="./assets/svg/func_icon.svg" />
+          <h2>Binary to Decimal Converter</h2>
+          <input type="number" name="binary_input" placeholder="Enter up to 8 binary digits">
+          <input type="number" name="decimal_output" placeholder="Waiting..." readonly>          
+          <input type="submit" value="Converter">
+        </form>
+      </div>
+    </main>
   </div>
 </body>
 </html>
